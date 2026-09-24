@@ -4,7 +4,7 @@ An end-to-end exploratory data analysis of Blinkit's item and outlet sales data,
 
 ## Why this project
 
-The original brief (see `Blinkit Analysis.pptx`) asked for: total sales, average sales, item count, and average rating as KPIs, plus 6 specific charts breaking sales down by fat content, item type, outlet, outlet age, outlet size, and outlet location. Rather than build this in Power BI, I rebuilt the entire pipeline in Python — data cleaning, KPI calculation, and every chart — as a way to demonstrate the same analysis using pandas/matplotlib instead of a drag-and-drop BI tool.
+TThe original brief (see `business_requirements.txt`) asked for: total sales, average sales, item count, and average rating as KPIs, plus 6 specific charts breaking sales down by fat content, item type, outlet, outlet age, outlet size, and outlet location. Rather than build this in Power BI, I rebuilt the entire pipeline in Python — data cleaning, KPI calculation, and every chart — as a way to demonstrate the same analysis using pandas/matplotlib instead of a drag-and-drop BI tool.
 
 ## Dataset
 
@@ -137,7 +137,7 @@ Sales by the year an outlet was established don't show a clean linear trend — 
 ## Project Structure
 blinkit-analysis/
 ├── Blinkit_Analysis.ipynb # Full analysis notebook (cleaning, KPIs, charts)
-├── Blinkit Analysis.pptx # Original business requirement brief
+├── Blinkit Analysis.pptx  # Original business requirement brief
 ├── blinkit_raw_data.csv # Raw dataset (8,523 rows)
 ├── Outputs/ # Chart images referenced in this README
 │ ├── output1.png … output6.png
